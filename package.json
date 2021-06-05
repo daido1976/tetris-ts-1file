@@ -1,0 +1,20 @@
+{
+  "name": "ts-tetris",
+  "version": "1.0.0",
+  "description": "http://kmaebashi.com/programmer/tetris/program.html https://torisky.com/javascript%ef%bc%9a%e3%83%86%e3%83%88%e3%83%aa%e3%82%b9%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/ https://www.youtube.com/watch?v=l-soXvaISok",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "4.2.3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
