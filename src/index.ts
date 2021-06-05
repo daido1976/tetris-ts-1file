@@ -243,4 +243,5 @@ const initialize = () => {
   setInterval(dropTetro, 300);
 };
 
+// window.addEventListener("load", ...) を使いたかったが、codesandbox では load イベントが発火しないのでこうしている
 initialize();
